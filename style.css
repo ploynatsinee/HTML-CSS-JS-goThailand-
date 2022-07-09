@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background: rgb(255, 243, 243);
+  height: 80px;
+  width: 100%;
+}
+
+
+label.logo {
+  color: brown;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin: right;
+}
+
+nav ul li  {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+ ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0%;
+ }
+
+ ul li a {
+   color: brown;
+   font-size: 17px;
+   text-transform: uppercase;
+ }
+
+  .menu a:hover {
+    background-color: rgb(255, 226, 226);
+    color: black;
+    transition: 0.3s ease;
+    padding: 2px 2px;
+    border-radius: 5px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: center;
+      display: block;
+    }
+  }
+
+.explore {
+  position: relative;
+  border: none;
+  margin: 20px;
+  top: 20%;
+  left: 25%;
+  width: 50%;
+    background: none;
+    color: brown;
+    padding: .4rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 4px;
+    cursor: pointer;
+  }
+
+button .explore :hover {
+    background-color: whitesmoke;
+    color: black;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+#slideshow-example img{
+  max-width: 95%;
+  max-height: 400px;
+  align-items: right;
+  border-radius: 3rem;
+}
+
+.slide {
+  
+    background-size: cover;
+}
+
+[data-component="slideshow"] .slide {
+  display: none;
+  text-align: center;
+  transition: 0.3s ease;
+  size-adjust: 3rem;
+}
+
+[data-component="slideshow"] .slide.active {
+    display: block;
+}
+
+section .go-1 {
+  margin: 10px;
+  background-color: none;
+  position: relative;
+  top: 20%;
+  left: 25%;
+  width: 50%;
+  color: gray;
+  line-height: 30px;
+
+}
+
+article {
+  background-color: rgb(254, 221, 221);
+}
+
+.topdes {
+  padding: 1rem;
+  margin: 25px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: lighter;
+  color: brown;
+  float: inherit;
+  justify-content: space-around;
+
+}
+
+.swiper {
+  align-items: center;
+  margin-left: 15%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.slider-main {
+  margin-left: 15%;
+  position: relative;
+  display: inline-block;
+  
+}
+
+div .item {
+  vertical-align: top;
+  margin: 5px;
+  display: inline-block;
+  font-display: inline-block;
+  
+}
+.s1 {
+  display: inline-block;
+  border-radius: 50px;
+  block-size: 100px;
+  width: 100px;
+  text-align: center;
+  
+}
+
+.s2 {
+  margin-top: 3px;
+  display: block;
+  text-align: center;
+  float: unset;
+  font-size: 15px;
+  position: relative;
+  color: gray;
+  font-weight: lighter;
+  
+}
+
+article .topdest {
+  background-color: white;
+  align-items: center;
+  justify-items: center;
+} 
+
+.tophotel {
+  background-color: none;
+  position: relative;
+  padding: 1rem;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: lighter;
+  color: brown;
+  float: center;
+}
+
+.tophotelitem {
+  margin: 2rem;
+  background-color: none;
+  justify-items: center;
+  position: relative;
+  display: inline-flex;
+  left: 70px;
+}
+
+div .hoitem {
+  background: none;
+  vertical-align: top;
+  margin: 5px;
+  display: inline-block;
+  font-display: inline-block;
+  
+}
+
+.hopic {
+  display: inline-block;
+  border-radius: 20px;
+  block-size: 300px;
+  width: 200px;
+  text-align: center;
+  background-color: none;
+  
+}
+
+.hopa {
+  margin-top: 3px;
+  display: block;
+  text-align: center;
+  float: unset;
+  font-size: 16px;
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-weight: lighter;
+  background-color: none;
+}
+
+a {
+  margin-top: 3px;
+  display: block;
+  text-align: center;
+  float: unset;
+  font-size: 13px;
+  position: relative;
+  color: rgb(30, 20, 179);
+  font-weight: bold;
+  background-color: none;
+}
+
+a:hover {
+  color: rgb(30, 116, 106);
+}
+
+.overheard {
+  margin-bottom: 0%;
+  text-align: center;
+  align-items: center;
+}
+.cus-com {
+  justify-content: right;
+  
+}
+
+.cmt {
+  justify-content: center;
+  margin-top: 0%;
+  margin: 3rem;
+  padding: 35px;
+  left: 55px;
+  text-align: center;
+  background-color: rgb(248, 250, 252);
+  display: inline-block;
+  width:  300px;
+  height: content 100px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+  
+}
+
+.comment {
+  font-size: 16px;
+  position: relative;
+  color: brown;
+}
+
+
+
+.comment-2 {
+  font-size: 14px;
+  position: relative;
+}
+
+.comment-3 {
+  
+  font-size: 14px;
+  position: relative;
+  color: rgb(122, 122, 122);
+}
+
+
+.overheard {
+  position: relative;
+  padding: 40px 0;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: lighter;
+  color: brown;
+  float: center;
+}
+
+.cus-com .cmt {
+  float: center;
+  left: 50px;
+}
+
+.back {
+  margin: 8px;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(254, 254, 210);
+  float: right;
+}
+
+.back :hover {
+  background-color: rgb(147, 104, 40);
+  color: blue;
+  cursor: pointer;
+}
